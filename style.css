@@ -1,0 +1,66 @@
+* {margin: 0; padding: 0;}
+#playarea {
+	width: 760;
+	height: 580;
+}
+#title-area{
+	text-align: center;
+	width: 760px;
+	height: 100px;
+	background-image: url(images/topbar.jpg);
+}
+#leftbar {
+	width: 130px;
+	height: 400px;
+	background-image: url(images/leftbar.jpg);
+	float: left;
+}
+#center {
+	width: 500px;
+	height: 400px;
+	background-image: url(images/center.jpg);
+	float: left;
+}
+#rightbar {
+	width: 130px;
+	height: 400px;
+	background-image: url(images/rightbar.jpg);
+	float: left;
+}
+#botbar {
+	width: 760px;
+	height: 100px;
+	background-image: url(images/botbar.jpg);
+	float: left;
+}
+/* Tiles 
+**************************************************/
+#tiles{
+	width: 500px;
+	border-collapse: collapse;
+	margin: 30px 12.5px;
+}
+#tiles td {
+	width: 100px;
+	height: 140px;
+}
+.tile {
+	border: 2px solid #003471;
+	width: 136px;
+}
+
+.option {
+	border-color: #003471;
+}
+
+.selected1 {
+	border-color: #F26522;
+}
+.selected2 {
+	border-color: #F26522;
+}
+
+/* Timer
+**************************************************/
+#timer {
+}
